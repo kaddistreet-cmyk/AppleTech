@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!--FAVICON-->
+  <link rel="icon" type="image/svg+xml" href="/images/apple.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Tech</title>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+  <nav class="bg-gray-50 fixed w-full z-20 top-0 start-0 border-b border-default">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/images/apple.svg" class="h-7" alt="AppleTech Logo" />
+        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Apple Tech</span>
+      </a>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+          <li>
+            <a href="index.html"
+              class="block py-2 px-3 text-black rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Ofertas</a>
+          </li>
+          <li>
+            <a href="/src/pages/productos.html"
+              class="block py-2 px-3 text-black rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Productos</a>
+          </li>
+          <li>
+            <a href="/src/pages/nosotros.html"
+              class="block py-2 px-3 text-black rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <main class="flex-1 pt-24">
+    <section class="bg-white lg:grid lg:h-screen lg:place-content-center dark:bg-gray-900">
+      <div
+        class="mx-auto w-screen max-w-7xl px-4 py-16 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:items-center md:gap-4 lg:px-8 lg:py-32">
+        <div class="max-w-prose text-left">
+          <h1 class="text-4xl font-bold text-black sm:text-5xl dark:text-white">
+            Diseñado para enamorar. <br><strong class="text-indigo-600">Iphone 17 Pro</strong>
+          </h1>
+
+          <p class="mt-4 text-base text-pretty text-black sm:text-lg/relaxed dark:text-gray-200 text-justify">
+            Único e inigualable. El iPhone es conocido por su diseño icónico y sus materiales de primera calidad, como
+            los del iPhone 17 Pro, cuya estructura de aluminio forjado en caliente ofrece un rendimiento superior.
+          </p>
+
+          <div class="mt-4 flex gap-4 sm:mt-6">
+            <a class="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
+              href="#">
+              Precio oferta $1.000
+            </a>
+          </div>
+        </div>
+
+        <img
+          src="https://www.apple.com/v/iphone-17-pro/d/images/overview/contrast/iphone_17_pro__dwccrdina7qu_large_2x.jpg"
+          alt="iphone 17 pro max" viewBox="0 0 1024 768" width="800px" height="900px"
+          class="mx-auto hidden max-w-md text-gray-900 md:block dark:text-white">
+        </img>
+      </div>
+    </section>
+  </main>
+
+  <section class="bg-gray-50 dark:bg-gray-900">
+    <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+      <div class="mx-auto max-w-lg text-center">
+        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl dark:text-white">
+          Recibe nuestras promociones exclusivas
+        </h2>
+
+        <p class="hidden text-gray-500 sm:mt-4 sm:block dark:text-gray-400">
+          Suscríbete y sé el primero en enterarte de descuentos, lanzamientos y ofertas especiales por tiempo limitado.
+        </p>
+      </div>
+
+      <div class="mx-auto mt-8 max-w-xl">
+        <form action="#" class="sm:flex sm:gap-4">
+          <div class="sm:flex-1">
+            <label for="email" class="sr-only">Correo</label>
+
+            <input type="email" placeholder="Correo"
+              class="w-full rounded-md border-gray-200 bg-white p-3 shadow-xs transition focus:border-white focus:ring-2 focus:ring-yellow-400 focus:outline-hidden dark:border-gray-700 dark:bg-gray-800 dark:text-white">
+          </div>
+
+          <button type="submit"
+            class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-rose-600 px-5 py-3 text-white transition focus:ring-2 focus:ring-yellow-400 focus:outline-hidden sm:mt-0 sm:w-auto">
+            <span class="text-sm font-medium"> Suscribirme </span>
+
+            <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-neutral-primary-soft rounded-base shadow-xs border border-default m-4">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-body sm:text-center">Copyright © 2026 <a
+          href="https://www.apple.com/legal/privacy/es-la/" class="hover:underline">AppleTech,</a> Todos los derechos
+        reservados.
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-body sm:mt-0">
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Política de privacidad</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Aviso legal</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Mapa del sitio</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--Enlace en el js principal-->
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+
+
+</html>
